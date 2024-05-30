@@ -19,4 +19,12 @@ bitwise operators &,|, ^ , shif operators << and >> supported
 
 dont compare floats. Just check for mean difference.
 
+rune = int32
+byte = uint8
 
+x = float4(100) --- type conversion explicitly
+
+other languages, non zero is treated as True - boolean, but, in GoLang, explicit bool True alone is accepted.
+Go's motto is simplicity and clarity.
+
+Literals are untyped.
