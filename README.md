@@ -28,3 +28,8 @@ other languages, non zero is treated as True - boolean, but, in GoLang, explicit
 Go's motto is simplicity and clarity.
 
 Literals are untyped.
+
+var x float64 = 100 -- valid
+
+x := 10
+x, y := 30, "hello" --- Valid, atleast one new variable on left side
