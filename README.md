@@ -35,3 +35,5 @@ x := 10
 x, y := 30, "hello" --- Valid, atleast one new variable on left side
 
 maps cannot be compared for equality and maps, slices cannot be used as keys for maps.
+
+GO does not allow you to write you own equal and hashing algorithms
